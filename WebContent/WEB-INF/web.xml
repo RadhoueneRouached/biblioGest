@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>BiblioGest</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+    <param-value>resources.messages</param-value>
+  </context-param>
+  <context-param>
+    <description>The relative path to img</description>
+    <param-name>ImgPath</param-name>
+    <param-value>img/</param-value>
+  </context-param>
+  <jsp-config>
+    <jsp-property-group>
+      <description>header and footer settings</description>
+      <url-pattern>/accueil.jsp</url-pattern>
+      <url-pattern>/views/*</url-pattern>
+      <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
+      <include-coda>/WEB-INF/jspf/footer.jspf</include-coda>
+    
+    </jsp-property-group>
+  </jsp-config>
+</web-app>

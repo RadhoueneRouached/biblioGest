@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Bibliotheque</title>
+<style type="text/css">
+
+a.type1 { color: white; }
+a.type1:hover { color: yellow;}
+
+header { 
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+ background-color: rgba(1,1,1,0.8);
+            color:white;
+            border-bottom:1px solid black;
+
+
+
+
+</style>
+</head>
+<body>
+
+<header>
+
+       <fmt:setLocale value="${sessionScope['lang']}"/>
+       <table>
+       <tr><td>
+        <img src="${initParam.ImgPath}BLogo.png" alt=""/> <h5><fmt:message key='library' /></h5>
+  
+     </td><td  width="800px">
+     </td><td>
+	<a href="/BibioGestViews/Deconnexion"  > <h6> <fmt:message key='signOut' /></h6> </a>        
+    </td>
+    <td><p style="text-align: left;">
+					
+				<c:choose>
+					<c:when
+						test="${sessionScope['javax.servlet.jsp.jstl.fmt.locale.session'] eq 'en'}">
+						<a href="?lang=fr">Francais</a>
+					</c:when>
+					<c:otherwise>
+					<a href="/BibioGestViews/Lang?lang=en" class="type1">English</a>
+						<a href="/BibioGestViews/Lang?lang=fr" class="type1">Francais</a>
+					</c:otherwise>
+				</c:choose>
+					</td></tr>
+       </table>
+    
+    
+    </div>
+    </div>
+    
+</header>
+</body>
+</html>
