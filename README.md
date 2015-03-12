@@ -7,14 +7,14 @@ JAVA ENTREPRISE EDITION / JAVA EE
 #Gestion de bibliothéque multilangues: 
 Notre application consiste a développer une application destiné pour la gestion de bibliothéque  qui contient 4 grandes parties  :+1:  
 
-*Gestion des emprunts 
-*Gestion des adhérents 
-*Gestion des documents 
-*Statiques
+* Gestion des emprunts 
+* Gestion des adhérents 
+* Gestion des documents 
+* Statiques
 
  Nos principaux acteurs sont : 
-*Administrateur
-*Adhérent
+* Administrateur
+* Adhérent
 
 Les technologies utilisées : 
 Hibernate,JSTL ,i18n, JSP
