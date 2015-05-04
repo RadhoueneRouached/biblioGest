@@ -38,4 +38,5 @@ Our main actors are:
 Technologies used:
 Hibernate, JSTL, i18n, JSP , Design patterns: MVC (model-view-controller) ,abstract factory
 
+*** Radhouene Rouached
 *#Enjoy n' Share !*
