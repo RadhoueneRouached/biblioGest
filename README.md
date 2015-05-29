@@ -1,8 +1,8 @@
-Gestion de bibliotheque / Library management 
+Gestion de bibliothéque / Library management 
 ------------------------------
 [FR]
 #Gestion de bibliothéque multilangues: 
-Notre application consiste a développer une application multilangues destiné pour la gestion de bibliothéque (mediatheque) qui contient 4 grandes parties  :  
+Notre application consiste a développer une application multilangues destinée pour la gestion de bibliothéque (mediathéque) qui contient 4 grandes parties  :  
 
 + Gestion des emprunts 
 + Gestion des adhérents 
