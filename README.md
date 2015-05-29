@@ -1,10 +1,6 @@
-# biblioGest
-
 Gestion de bibliotheque / Library management 
 ------------------------------
-
 [FR]
-
 #Gestion de bibliothéque multilangues: 
 Notre application consiste a développer une application multilangues destiné pour la gestion de bibliothéque (mediatheque) qui contient 4 grandes parties  :  
 
@@ -24,11 +20,9 @@ Notre application consiste a développer une application multilangues destiné p
 
 
 ***********************************************************************
-
-#Library management multilingual:
-
 [EN]
 
+#Library management multilingual:
 Our application consists in developing an application designed to manage the library that contains four parts:
 
 + Loan Management
